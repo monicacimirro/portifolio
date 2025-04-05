@@ -39,3 +39,22 @@ a {
     a:hover {
         text-decoration: underline;
     }
+#contato a {
+    color: #0077b5; /* Cor do LinkedIn */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    #contato a:hover {
+        text-decoration: underline;
+    }
+a.linkedin {
+    color: #0a2342; /* azul marinho escuro */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a.linkedin:hover {
+        color: #145DA0; /* tom de azul mais claro no hover */
+        text-decoration: underline;
+    }
