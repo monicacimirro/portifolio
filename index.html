@@ -1,109 +1,92 @@
 ﻿<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Monica Scremin Cimirro</title>
+    <title>Monica Scremin Cimirro</title>
     <style>
         body {
-          font-family: Arial, sans-serif;
+          font-family: 'Segoe UI', sans-serif;
           margin: 0;
-          padding: 0;
-          background-color: #f2f2f2;
+          background-color: #f4f4f4;
           color: #333;
         }
 
         header {
           background-color: #4a90e2;
           color: white;
+          padding: 30px;
           text-align: center;
-          padding: 40px 20px;
         }
 
-        .foto-perfil {
+        header img {
           width: 150px;
           height: 150px;
           border-radius: 50%;
-          border: 4px solid white;
-          box-shadow: 0 4px 10px rgba(0,0,0,0.2);
           object-fit: cover;
-          margin-bottom: 20px;
+          margin-top: 10px;
+          border: 4px solid white;
         }
 
         section {
-          padding: 20px;
+          padding: 30px;
           max-width: 800px;
           margin: auto;
         }
 
         h2 {
           color: #4a90e2;
+          margin-bottom: 10px;
+        }
+
+        a.linkedin {
+          color: #0a2342;
+          font-weight: bold;
+          text-decoration: none;
+        }
+
+        a.linkedin:hover {
+          color: #145DA0;
+          text-decoration: underline;
         }
 
         footer {
           text-align: center;
-          padding: 20px;
           background-color: #4a90e2;
           color: white;
-        }
-
-        a {
-          color: #fff;
-          text-decoration: underline;
+          padding: 10px;
+          margin-top: 40px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <img src="minhafoto.jpg" alt="Monica Scremin Cimirro" class="foto-perfil">
         <h1>Monica Scremin Cimirro</h1>
-        <p>Estudante de Tecnologia | Apaixonada por inovação</p>
+        <p>Estudante de Tecnologia | Apaixonada por inovação e desenvolvimento</p>
+        <img src="minhafoto.jpg" alt="Foto de Monica Scremin Cimirro">
     </header>
 
     <section>
         <h2>Sobre Mim</h2>
-        <p>Sou estudante dedicada na área de tecnologia, com interesse em desenvolvimento web, design de interfaces e soluções inovadoras.</p>
+        <p>Sou estudante dedicada na área de tecnologia, com interesse em desenvolvimento web, design de interfaces e soluções inovadoras. Adoro aprender coisas novas, resolver problemas e trabalhar com propósito.</p>
         <p><strong>Habilidades:</strong> HTML, CSS, JavaScript, Figma, prototipagem, design de interação.</p>
         <p><strong>Hobbies:</strong> Leitura, tecnologia, música, natureza.</p>
     </section>
 
     <section>
         <h2>Projetos</h2>
-        <h3>Aplicativo de Marcação de Consultas</h3>
-        <p>Protótipo de alta fidelidade inspirado no Doctoralia, com agendamento de consultas e funcionalidades extras.</p>
-
-        <h3>Sistema AUTO CENTER FERNANDES</h3>
-        <p>Projeto para automatizar operações de uma empresa com gestão de estoque, clientes e finanças.</p>
+        <p><strong>Aplicativo de Marcação de Consultas:</strong> Protótipo de alta fidelidade inspirado no Doctoralia, com agendamento de consultas e funcionalidades extras.</p>
+        <p><strong>Sistema Auto Center Fernandes:</strong> Projeto para automatizar operações de uma empresa com gestão de estoque, clientes e finanças.</p>
     </section>
 
     <section>
         <h2>Contato</h2>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">Clique aqui</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/monica-scremin-cimirro-92a98626/" class="linkedin" target="_blank">Clique aqui</a></p>
     </section>
 
     <footer>
-        <p>© 2025 Monica Scremin Cimirro</p>
+        © 2025 Monica Scremin Cimirro
     </footer>
 
 </body>
 </html>
-
-<section id="contato">
-    <h2>Contato</h2>
-    <p>Você também pode me encontrar no <a href="https://www.linkedin.com/in/monica-scremin-cimirro-92a98626/" target="_blank">LinkedIn</a>.</p>
-
-    <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required>
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" required></textarea>
-
-        <button type="submit">Enviar</button>
-    </form>
-</section>
-

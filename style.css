@@ -49,12 +49,13 @@ a {
         text-decoration: underline;
     }
 a.linkedin {
-    color: #0a2342; /* azul marinho escuro */
+    color: #0a2342; /* azul marinho */
     font-weight: bold;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
     a.linkedin:hover {
-        color: #145DA0; /* tom de azul mais claro no hover */
+        color: #145DA0; /* azul um pouco mais claro ao passar o mouse */
         text-decoration: underline;
     }
