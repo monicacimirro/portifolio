@@ -1,0 +1,9 @@
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\bin\Debug\portifolio.exe.config
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\bin\Debug\portifolio.exe
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\bin\Debug\portifolio.pdb
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.csproj.AssemblyReference.cache
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.Properties.Resources.resources
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.csproj.GenerateResource.cache
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.csproj.CoreCompileInputs.cache
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.exe
+C:\Users\monic\OneDrive\Área de Trabalho\portifolio\portifolio\obj\Debug\portifolio.pdb
