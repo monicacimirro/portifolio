@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+h2, h3 {
+    color: #2c3e50;
+}
+
+form input, form textarea {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    form input[type="submit"] {
+        background-color: #4a90e2;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+        form input[type="submit"]:hover {
+            background-color: #357ab7;
+        }
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
